@@ -6,6 +6,12 @@ public class Person {
     private int age;
     private char gender;
 
+    public Person(String name, int age, char gender) {
+        setName(name);
+        setAge(age);
+        setGender(gender);
+    }
+
     public String getName() {
         return name;
     }
@@ -30,11 +36,6 @@ public class Person {
         this.gender = gender;
     }
 
-    public Person(String name, int age, char gender) {
-        setName(name);
-        setAge(age);
-        setGender(gender);
-    }
 
     public void eat() {
         System.out.println(name + " is eating");
