@@ -100,11 +100,13 @@ public class PolymorphismIntro {
         boolean isRectangle = shape instanceof Rectangle;
         boolean isTriangle = shape instanceof Triangle;
         boolean isCircle = shape instanceof Circle;
+        boolean isShape = shape instanceof Shape;
 
         System.out.println("isSquare = " + isSquare);
         System.out.println("isTriangle = " + isTriangle);
         System.out.println("isRectangle = " + isRectangle);
         System.out.println("isCircle = " + isCircle);
+        System.out.println("isShape = " + isShape);
 
 
 
