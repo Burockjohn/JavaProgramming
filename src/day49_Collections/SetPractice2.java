@@ -86,5 +86,9 @@ public class SetPractice2 {
             System.out.println(each);
         }
 
+        char [] ch = "Burak".toCharArray();
+        String name = new String(ch);
+        System.out.println(name);
+
     }
 }

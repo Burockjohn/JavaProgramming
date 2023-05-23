@@ -41,7 +41,7 @@ public class QueuePractice {
         // System.out.println(priorityQueue.get(1));
         //  System.out.println(arrayDeque.get(1));
 
-        //   System.out.println( ( (List)linkedList ).get(1) );
+        System.out.println(((List) linkedList).get(1));
 
         System.out.println(((LinkedList<Integer>) linkedList).get(1));
 
