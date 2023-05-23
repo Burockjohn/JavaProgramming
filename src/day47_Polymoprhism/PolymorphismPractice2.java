@@ -60,6 +60,17 @@ public class PolymorphismPractice2 {
         Tester testerWithMaxSalary = testers.get(0);
         Developer developerWithMaxSalary = developers.get(0);
 
+        for (Tester tester : testers) {
+            if (tester.getSalary() > testerWithMaxSalary.getSalary()) testerWithMaxSalary = tester;
+        }
+
+        for (Developer developer : developers) {
+            if (developer.getSalary() > developerWithMaxSalary.getSalary()) developerWithMaxSalary = developer;
+        }
+
+        System.out.println("testerWithMaxSalary = " + testerWithMaxSalary);
+        System.out.println("developerWithMaxSalary = " + developerWithMaxSalary);
+
 
     }
 
