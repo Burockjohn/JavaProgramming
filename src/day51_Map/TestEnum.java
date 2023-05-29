@@ -29,10 +29,12 @@ public class TestEnum {
         }
 
 
-        System.out.println("-------------------");
+        System.out.println("------------------------------");
 
 
         Season season = Season.SUMMER;
+
+        System.out.println("season = " + season);
 
     }
 }
