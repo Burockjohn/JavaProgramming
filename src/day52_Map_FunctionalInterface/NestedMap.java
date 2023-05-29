@@ -45,7 +45,7 @@ public class NestedMap {
         System.out.println("------------------------------------------------");
 
 
-        Map<Map<Map<Integer, Integer>, Map<Integer, Integer>>, Map<Map<Integer, Integer>, Map<Integer, Integer>>> mapOfMapOfMap = new LinkedHashMap<>();
+        Map<Map<Map<Integer, Integer>, Map<Integer, Integer>>, Map<Map<Integer, Integer>, Map<Integer, Integer>>> mapOfMapOfMap = new LinkedHashMap<>(); // brain is burning
 
     }
 }

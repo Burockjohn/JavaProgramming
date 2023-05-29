@@ -2,7 +2,7 @@ package day52_Map_FunctionalInterface;
 
 import java.util.*;
 
-public class ListOfMapPractice1 {
+public class ListOfMap {
 
     public static void main(String[] args) {
 
