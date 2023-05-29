@@ -1,4 +1,12 @@
 package day51_Map;
 
-public class Level {
+public enum Level {
+
+    EASY,
+    MEDIUM,
+    HARD,
+    ADVANCED,
+    EXPERT,
+    CHUCK_NORRIS
+
 }

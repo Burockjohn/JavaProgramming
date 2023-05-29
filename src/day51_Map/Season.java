@@ -1,4 +1,10 @@
 package day51_Map;
 
-public class Season {
+public enum Season {
+
+    SUMMER,
+    WINTER,
+    SPRING,
+    FALL
+
 }
