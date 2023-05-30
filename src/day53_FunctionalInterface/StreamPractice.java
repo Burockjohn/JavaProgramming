@@ -68,6 +68,14 @@ public class StreamPractice {
 
 
         List<Integer> list6 = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
+        boolean r1 = list6.stream().allMatch(p -> p % 2 == 0);
+        System.out.println(r1);
+
+        boolean r2 = list6.stream().anyMatch(p -> p % 2 == 0);
+        System.out.println(r2);
+
+        boolean r3 = list6.stream().noneMatch(p -> p % 3 == 0);
+        System.out.println(r3);
 
     }
 }
