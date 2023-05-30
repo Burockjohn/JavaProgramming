@@ -101,6 +101,7 @@ public class BuildInFunctionalInterfaces1 {
         List<Integer> numbers = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
 
         int[] result2 = convertToArray.apply(numbers);
+        System.out.println(Arrays.toString(result2));
 
         System.out.println("-------------------------------------------");
 
