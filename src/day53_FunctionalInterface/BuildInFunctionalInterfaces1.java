@@ -17,10 +17,10 @@ public class BuildInFunctionalInterfaces1 {
         };
 
         boolean result1 = isPalindrome.test("Java");
-
         System.out.println(result1);
 
         Predicate<Integer> isEven = p -> p % 2 == 0;
+        System.out.println(isEven.test(4));
 
         System.out.println("--------------------------------------");
 
