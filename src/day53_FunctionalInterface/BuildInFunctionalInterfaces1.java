@@ -51,7 +51,7 @@ public class BuildInFunctionalInterfaces1 {
 
         System.out.println("---------------------------------------------");
 
-        List<Integer> list2 = new ArrayList<>(Arrays.asList(1, 2, 3, 34, 5, 6, 7, 8, 9));
+        List<Integer> list2 = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9));
 
         /*
         for (Integer each : list2) {
