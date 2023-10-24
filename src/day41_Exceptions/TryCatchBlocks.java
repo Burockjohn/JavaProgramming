@@ -39,7 +39,7 @@ public class TryCatchBlocks {
             System.out.println("Try Block");
 
         } catch (RuntimeException e) {
-
+            System.out.println("Catch Block");
             e.printStackTrace();
 
             // System.out.println( e.getMessage() );
@@ -55,7 +55,7 @@ public class TryCatchBlocks {
 
 
         try {
-            System.out.println("Cydeo".substring(2, 0));
+            System.out.println("Cydeo".substring(2, 1));
         } catch (RuntimeException e) {
             e.printStackTrace();
         }
